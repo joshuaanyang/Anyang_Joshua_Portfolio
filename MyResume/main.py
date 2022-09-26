@@ -10,7 +10,6 @@ my_email = os.environ.get("EMAIL")
 p = os.environ.get("PASSWORD")
 
 
-
 port_cont = [{""}, {"name": "Instagram Bot",
                     "category": "App",
                     "client": "Personal Project",
@@ -43,8 +42,9 @@ port_cont = [{""}, {"name": "Instagram Bot",
               "client": "Personal Project",
               "date": "February 2022",
               "url": "Github",
-              "description": "Personalized movie library built with python and Flaskv",
+              "description": "Personalized movie library built with python and Flask",
               "image": "Movie"}]
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap(app)
